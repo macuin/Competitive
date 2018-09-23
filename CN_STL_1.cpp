@@ -4,10 +4,11 @@
 using namespace std;
 
 //Fucntion to remove duplicates and return new array.
-vector<int> removeDuplicates(vector<int> input, int n){
+vector<int> removeDuplicates(vector<int> input, int n)
+{
  	
-  	int i,j,a;
-  	vector<int> o;
+    int i,j,a;
+    vector<int> o;
   
     set<int> s;
 
