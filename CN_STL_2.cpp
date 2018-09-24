@@ -8,6 +8,7 @@ int main()
 {
   string s;
   int i,flag=0;
+  //Implementation of MAP to find freqency. 
   map<char,int> m;
 
   cin>>s;
@@ -31,7 +32,7 @@ int main()
         if(flag==1)
           break;
     }
-
+//If no freqency is 1 then print first element in character array.
     if(flag==0)
       {
         i=0;
